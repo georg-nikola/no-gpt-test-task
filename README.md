@@ -6,3 +6,5 @@ start
 pause
 
 resume
+
+pause
