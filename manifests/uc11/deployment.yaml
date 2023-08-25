@@ -54,6 +54,12 @@ spec:
           volumeMounts:
           - name: nginx-index-config
             mountPath: /usr/share/nginx/html
+          env:
+            - name: BLOG_SECRET_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: uc11
+                  key: ENV
       volumes:
       - name: nginx-index-config
         configMap:
