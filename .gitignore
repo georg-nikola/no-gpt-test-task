@@ -164,3 +164,6 @@ aws/
 
 #Mac ignores
 .DS_Store
+
+#zips
+*.zip
