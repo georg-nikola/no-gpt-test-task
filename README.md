@@ -14,3 +14,5 @@ resume
 pause
 
 resume
+
+finish
