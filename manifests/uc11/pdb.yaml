@@ -7,4 +7,5 @@ spec:
   minAvailable: 3
   selector:
     matchLabels:
-      app: uc11
+      app.kubernetes.io/name: uc11
+      app.kubernetes.io/instance: uc11
